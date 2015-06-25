@@ -1,0 +1,91 @@
+package DocuTrackerPac;
+
+//import java.awt.AWTException;
+
+import java.awt.AWTException;
+
+import org.testng.annotations.Test;
+//import org.testng.annotations.BeforeTest;
+
+public class Tests {
+
+ /* @BeforeTest
+ public void LoginAppTest()
+ {
+	  Helper.loginapp("maniadmin", "123456","http://73f03a3c373340a596d220e47e539824.cloudapp.net");
+ }
+
+	 @Test(priority = 1)
+  public void createISDAWorkflowTest() throws InterruptedException, AWTException{
+	  ISDAworkflow.CreateISDAWorkflow();}*/
+	  
+	  @Test
+	  public static void CreateISDADraft() throws InterruptedException, AWTException {
+		  Create_ISDADraftAgreement.CreateISDADraft();
+	  }
+  
+/* @Test(priority =2 )
+public static void ISDASingleReportTest() {
+	  Helper.ISDASingleReport();
+	}
+ 
+	  @Test(priority = 3)
+	  public static void ISDACustomReportTest() throws InterruptedException, AWTException {
+		 ISDACustomReport.ISDACustomReportTset();
+		}
+ 
+
+	  	 @Test(priority = 4)
+	  	  public static void ISDACustomReportFiltersTest() throws Exception {
+	  		 iSDACustomReportFilters.CreatISDACustomReportFilters();
+	  		}
+	  	@Test(priority = 5)
+	  	public void ISDACopytemplateTest() throws InterruptedException{
+	  		  Helper.ISDAcopytemplate();
+	  		  }
+
+@Test(priority = 6)
+public static void ISDABENCHMARKsingleReportTest() throws InterruptedException, AWTException {
+	 Helper.ISDABENCHMARKsingleReportTest();
+	}
+
+  @Test(priority =7)
+  public static void PBWorkflowTest() throws InterruptedException, AWTException {
+		
+	  PBworkflowTest.CreatPBTestWorkflow();
+	}
+  
+ 
+  @Test(priority =8 )
+  public static void PBSingleReportTest() {
+	  Helper.PBSingleReport();
+	}
+
+ 
+  @Test(priority = 9)
+  public static void PBCustomReportTest() {
+	 PBCustomReport.PBCustomReportTset();
+	}
+  @Test(priority = 10)
+  public static void PBCustomReportFiltersTest() throws InterruptedException, AWTException {
+	 pbCustomReportFilters.CreatPBCustomReportFilters();
+	}
+  
+  @Test(priority = 11)
+public void PBCopytemplateTest() throws InterruptedException{
+	  Helper.PBcopytemplate();
+	  }
+  
+  @Test
+  public void ArchiveTest(){
+	  Helper.ClientArchive();
+	  }
+ 
+  
+  @Test(priority = 0)
+  public void SearchAgreementTest(){
+	  Helper.searchagreement();
+	  }*/
+
+
+}
