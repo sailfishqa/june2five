@@ -21,6 +21,7 @@ public class CustomReport {
 			WebDriver driver = StaticClass.driver;
 	       Helper.loginapp(driver);			
 			Thread.sleep(5000);
+			Thread.sleep(5000);
 			driver.findElement(By.xpath(".//*[@id='sidebar']/ul/li[4]/a/span")).click();//report
 			Thread.sleep(1000);
 			driver.findElement(By.xpath(".//*[@id='sidebar']/ul/li[4]/ul/li[2]/a")).click();//custom
